@@ -1,0 +1,3 @@
+add_executable(deepstream_test1 deepstream_test1.cpp)
+target_compile_features(deepstream_test1 PUBLIC cxx_std_17)
+target_link_libraries(deepstream_test1 PUBLIC deep_stream)

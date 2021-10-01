@@ -1,0 +1,3 @@
+add_executable(gstreamer gstreamer.cpp)
+target_compile_features(gstreamer PUBLIC cxx_std_17)
+target_link_libraries(gstreamer PUBLIC deep_stream)
