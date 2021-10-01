@@ -1,0 +1,3 @@
+add_executable(tiny_yolo2_deepstream tiny_yolo2_deepstream.cpp)
+target_compile_features(tiny_yolo2_deepstream PUBLIC cxx_std_17)
+target_link_libraries(tiny_yolo2_deepstream PUBLIC deep_stream)

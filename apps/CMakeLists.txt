@@ -1,2 +1,3 @@
 add_subdirectory(deepstream_test1)
 add_subdirectory(gstreamer)
+add_subdirectory(tiny_yolo2_deepstream)

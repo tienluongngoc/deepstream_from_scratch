@@ -68,3 +68,9 @@ make
 cd ..
 ./build/apps/deepstream_test1/deepstream_test1 /opt/nvidia/deepstream/deepstream-5.1/samples/streams/sample_720p.h264
 ```
+
+# Làm sao để view kết quả
+- Sử dụng máy có màn hình
+- Ghi ra file
+- Tạo luồng RTSP out
+- Vẽ các kết quả lên ảnh rồi xem trên từng ảnh (Recommned, dễ dàng thực hiện so với 3 phương pháp trên)
