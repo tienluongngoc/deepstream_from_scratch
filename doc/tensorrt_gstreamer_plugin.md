@@ -3,7 +3,7 @@ Trong phần này mình sẽ giới thiệu một số thành phần cơ bản c
 
 # TensorRT
 - TensorRT là bộ công cụ phát triển phần mềm (SDK) học sâu (deep learning) do Nvidia phát triển. Nó cho phép các ứng dụng hoạt động nhanh hơn so với training model (Pytorch, Caffe, ...)
-- Để convert training model sang inference model (Tensorrt) tham khảo [tại đây](LinkToTensorrt)
+- Để convert training model sang inference model (Tensorrt) tham khảo [tại đây](https://github.com/linghu8812/tensorrt_inference)
 
 # Gstreamer plugin
 
