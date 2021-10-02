@@ -1,0 +1,3 @@
+add_executable(save_image_deepstream save_image_deepstream.cpp)
+target_compile_features(save_image_deepstream PUBLIC cxx_std_17)
+target_link_libraries(save_image_deepstream PUBLIC deep_stream)

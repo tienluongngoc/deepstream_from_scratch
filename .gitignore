@@ -32,3 +32,5 @@
 *.app
 build
 models
+.cache
+.vscode

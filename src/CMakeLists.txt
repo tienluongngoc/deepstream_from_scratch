@@ -22,6 +22,14 @@ find_package(CUDA REQUIRED)
 message(STATUS "Find CUDA include at ${CUDA_INCLUDE_DIRS}")
 message(STATUS "Find CUDA libraries: ${CUDA_LIBRARIES}")
 
+
+# OPENCV
+find_package(OpenCV REQUIRED core imgcodecs imgproc video videoio dnn calib3d highgui cudaimgproc)
+list(APPEND INCLUDE_DIRS ${OpenCV_INCLUDE_DIRS})
+list(APPEND DEPS opencv_core opencv_highgui opencv_imgcodecs opencv_cudaimgproc opencv_imgproc opencv_video opencv_videoio  opencv_calib3d)
+
+
+
 add_library(${LIBRARY_NAME} ${SOURCE_LIST} ${HEADER_LIST})
 target_compile_features(${LIBRARY_NAME} PUBLIC cxx_std_17)
 target_include_directories(${LIBRARY_NAME} PUBLIC ${INCLUDE_DIRS} ${CUDA_INCLUDE_DIRS})
