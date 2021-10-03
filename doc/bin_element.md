@@ -10,6 +10,7 @@
 - Dòng 190: Add tất cả các element liên quan đến đọc và xử lý file vào trong bin
 - 191 - 194: Link các element trong bin với nhau
 - ghost_pad: Phần quan trọng nhất khi sử dụng bin
+    - Đọc thêm tài liệu [tại đây](https://gstreamer.freedesktop.org/documentation/additional/design/gstghostpad.html?gi-language=c)
     - Như đã đề cập những phần trước, các element giao tiếp với nhau thông qua pad của nó, trong trường hợp này: soure không cần giao tiếp với bên ngoài (bản thân nó chỉ có src mà không có sink). Do đó chỉ duy nhất decoder cần truyền dữ liệu ra khỏi bin.
     - ghost_pad: là một cầu nối của `element pad` trong `bin` và `bin pad`, cụ thể chúng ta cần liên kết `src_pad` của `decoder` với `ghost_pad` và `ghost_pad` với `src_pad` của `bin`. Giải thích hơi khó hiểu, các bạn nhìn hình vẽ nhé :)))
 
