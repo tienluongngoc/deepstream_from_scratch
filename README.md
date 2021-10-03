@@ -1,5 +1,5 @@
 # Deepstream_from_scratch
-
+Repo này mình viết ra với mục đích chính chia sẻ kiến thức Deepstream bằng tiếng Việt nên nhiều chỗ diễn giải hơi khó hiểu so với đọc tài liệu gốc bằng tiếng Anh. Và mình cũng chỉ tập trung vào việc giải thích Deepstream nên không chú ý đến việc code convension, nên các bạn thông cảm code hơi bẩn :))
 
 1. [Chạy demo một số ví dụ Nvidia deepstream](./doc/run_nvidia_deepstream_example.md)    
 2. [Tensorrt và Gstreamer plugin](./doc/tensorrt_gstreamer_plugin.md)    
