@@ -1,0 +1,3 @@
+add_executable(using_bin using_bin.cpp)
+target_compile_features(using_bin PUBLIC cxx_std_17)
+target_link_libraries(using_bin PUBLIC deep_stream)
